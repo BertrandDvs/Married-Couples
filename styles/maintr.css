@@ -162,7 +162,14 @@ button:active {
   letter-spacing: 2px;
 }
 button:after {
-  content: "READY?";
+  content: "LET'S GO!";
+}
+
+header {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+
 }
 
 .onclic {
