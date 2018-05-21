@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.container2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 70px;
+  margin-top: 230px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  columns: 2;
+  column-gap: 260px;
+}
+
+.button2 {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #838383;
+  color: #838383;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.button2:hover {
+  color: white;
+  background: #838383;
+}
+.button2:active {
+  letter-spacing: 2px;
+}
+.button2:after {
+  content: "1 et 3";
+}
+
+
+
+.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #838383;
+  -webkit-animation: rotating 2s 0.25s linear infinite;
+          animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "LET'S GO";
+
+}
+.onclic:hover {
+  color: #838383;
+  background: white;
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: #838383;
+}
+.validate:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+body,
+html {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+img {
+width: 100%;
+text-align: center;
+position: relative;
+margin-left: 0px;
+margin-right: 0px;
+flex-wrap: wrap;
+margin-top: 0px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -195px;
+  margin-top: 230px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  columns: 2;
+  column-gap: 260px;
+}
+
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #838383;
+  color: #838383;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+button:hover {
+  color: white;
+  background: #838383;
+}
+button:active {
+  letter-spacing: 2px;
+}
+button:after {
+  content: "2 et 6";
+}
+
+
+
+.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #838383;
+  -webkit-animation: rotating 2s 0.25s linear infinite;
+          animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "LET'S GO";
+
+}
+.onclic:hover {
+  color: #838383;
+  background: white;
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: #838383;
+}
+.validate:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+header {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.question {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 15px;
+    position: relative;
+
+  }
+
+.point {
+  border-style: solid;
+  border-color: #838383;
+  border-width: 1px;
+  text-align: center;
+  padding: 0px;
+  color: #838383;
+  text-decoration: none;
+  border-radius: 70px;
+  background-color: white;
+width: 80px;
+height: 20px;
+margin-top: 00px;
+
+
+}
+
+.point:hover {
+  background-color: #838383;
+  color: white;
+}
